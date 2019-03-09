@@ -55,6 +55,7 @@ def register(site,matcher):
         print(site,"注册成功")
     else:
         print(site,"重复注册！")
+    return
 
 #Matcher 对象，默认的爬虫方法，对下载的页面不做任何处理，直接返回
 class Matcher(object):

@@ -18,6 +18,7 @@ def drawpicByTxt(site1):
     #根据CSV 文件 生成条形图 和 词云图
     drawpic.bar_plot(csvPath,destImgName)
     drawpic.drawpic(csvPath,imagePath,descImageName)
+    return
 
 #
 def readTxt(txtPath):
